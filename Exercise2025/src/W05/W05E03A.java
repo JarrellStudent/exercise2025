@@ -11,7 +11,7 @@ public class W05E03A {
         Scanner inPut=new Scanner(System.in);
         String str;
         do{
-            System.out.print("Do you want to continue?(yes/no):");
+            System.out.print("edited");
         }while(!(str=inPut.next()).equalsIgnoreCase("No"));
     }
 
