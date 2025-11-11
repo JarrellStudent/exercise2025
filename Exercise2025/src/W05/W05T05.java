@@ -4,6 +4,8 @@
  */
 package W05;
 
+import java.util.Scanner;
+
 /**
  *
  * @author pensyarah
@@ -15,11 +17,14 @@ public class W05T05 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        int number =0;
+        Scanner input = new Scanner(System.in);
+        int number;
+        number = input.nextInt();
+
        
         if(number%2==0 ){
             System.out.println("Even");
-            System.out.println("Hello World");
+
         }
         else
             System.out.println("Odd");
